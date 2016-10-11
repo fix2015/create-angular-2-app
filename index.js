@@ -12,11 +12,11 @@ var pathExists = require('path-exists');
 var commands = argv._;
 if (commands.length === 0) {
   if (argv.version) {
-    console.log('create-angular2-app version: ' + require('./package.json').version);
+    console.log('create-angular-2-app version: ' + require('./package.json').version);
     process.exit();
   }
   console.error(
-    'Usage: create-angular2-app <project-directory> [--verbose]'
+    'Usage: create-angular-2-app <project-directory> [--verbose]'
   );
   process.exit(1);
 }
@@ -127,7 +127,7 @@ function checkNodeVersion(packageName) {
   if (!semver.satisfies(process.version, packageJson.engines.node)) {
     console.error(
       chalk.red(
-        'You are currently running Node %s but create-angular2-app requires %s.' +
+        'You are currently running Node %s but create-angular-2-app requires %s.' +
         ' Please use a supported version of Node.\n'
       ),
       process.version,
