@@ -64,6 +64,7 @@ function run(root, appName, version, verbose, originalDirectory) {
   var args = [
     'install',
     verbose && '--verbose',
+    '--save',
     '--save-dev',
     '--save-exact',
     installPackage,
