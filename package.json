@@ -1,0 +1,29 @@
+{
+  "name": "create-angular2-app",
+  "version": "2.0.0",
+  "keywords": [
+    "angular2"
+  ],
+  "description": "Simple AngularJS 2 Boilerplate for install sudo npm install -g create-angular2-app",
+  "repository": "fix2015/create-angular2-app",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4"
+  },
+  "bugs": {
+    "url": "https://github.com/fix2015/create-angular2-app/issues"
+  },
+  "files": [
+    "index.js"
+  ],
+  "bin": {
+    "create-angular2-app": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "cross-spawn": "^4.0.0",
+    "minimist": "^1.2.0",
+    "path-exists": "^2.1.0",
+    "semver": "^5.0.3"
+  }
+}
